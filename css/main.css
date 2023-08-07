@@ -1,0 +1,680 @@
+.night-city {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+
+.small-images {
+    margin: 0;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.small-images:last-child {
+    margin: 0;
+    margin-left: 30px;
+}
+
+
+.big-image {
+    margin-right: 30px;
+}
+
+
+.night-city-primary {
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    font-size: 62px;
+    font-family: RobotoB, sans-serif;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+
+.night-city-secondary {
+    width: 952px;
+    color: rgba(119, 119, 119, .7);
+    font-size: 16px;
+    font-family: RobotoM;
+    margin: 0;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+
+
+.cyberpunk {
+    color: rgba(82, 190, 220, 1);
+}
+
+
+#perexod {
+    margin: 0;
+    margin-bottom: -5px;
+    width: 1349px;
+}
+
+/*Action*/
+.action {
+    background-color: black;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+
+.action-img {
+    width: 132px;
+}
+
+
+.action-info {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.action-primary {
+    color: white;
+    font-size: 62px;
+    font-family: RobotoB, sans-serif;
+    margin: 0;
+    margin-left: 20px;
+}
+
+
+.action-secondary {
+    width: 700px;
+    color: rgba(255, 255, 255, .8);
+    font-size: 16px;
+    font-family: RobotoM;
+    margin: 0;
+    margin-left: 20px;
+}
+
+
+.form {
+    display: flex;
+}
+
+
+.form div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.username {
+    color: white;
+    font-family: RobotoT, sans-serif;
+    font-size: 18px;
+    border-bottom: 1px solid gray;
+    width: 400px;
+    padding-bottom: 10px;
+    margin-top: 100px;
+}
+
+
+.e-mail {
+    color: white;
+    font-family: RobotoT, sans-serif;
+    font-size: 18px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    width: 400px;
+}
+
+
+.file {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    font-size: 18px;
+    border: 3px dashed gray;
+    width: 395px;
+}
+
+
+.file > p {
+    margin: 0;
+}
+
+
+.add-file {
+    color: white;
+    font-size: 18px;
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+
+
+.file-type {
+    color: white;
+    font-size: 14px;
+    font-family: RobotoT, sans-serif;
+}
+
+
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.button img {
+    margin-top: -300px;
+}
+
+
+.agree {
+    display: flex;
+    flex-direction: row;
+    margin-top: -80px;
+}
+
+
+.checkbox {
+    background-color: black;
+    padding: 5px;
+}
+
+
+.agree-text {
+    margin-left: 5px;
+    color: white;
+    font-size: 16px;
+    font-family: RobotoT, sans-serif;
+}
+
+/*HP*/
+#HP {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: rgba(248, 242, 0, 1);
+    margin-top: -5px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+
+.HP-images {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    margin-right: 40px;
+}
+
+.HP-images img {
+    margin-bottom: 35px;
+}
+
+
+.HP-images img:last-child {
+    margin: 0;
+}
+
+
+.hp-primary {
+    color: black;
+    font-size: 62px;
+    font-family: RobotoB, sans-serif;
+    width: 600px;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+
+.hp-secondary {
+    color: black;
+    font-size: 18px;
+    font-family: RobotoM, sans-serif;
+    width: 624px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+
+.hp-logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.hp-logo {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+
+.hp-logo:last-child {
+    margin: 0;
+}
+
+
+.hp-text {
+    color: black;
+    font-size: 18px;
+    font-family: RobotoM, sans-serif;
+    margin: 0;
+    margin-left: 10px;
+}
+
+
+/*BUY GAME*/
+.buy {
+    background: url(/img/buy-game/1.svg) no-repeat;
+    background-size: 942px;
+}
+
+
+.buy-game {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.buy-game-info {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 756px;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin-left: 690px;
+}
+
+
+.buy-game-primary {
+    color: white;
+    font-family: RobotoB, sans-serif;
+    font-size: 62px;
+    width: 624px;
+    margin: 0;
+}
+
+
+.buy-game-secondary {
+    color: rgba(82, 190, 220, 1);
+    font-family: RobotoB, sans-serif;
+    font-size: 24px;
+    margin: 0;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+
+.complect {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+.complect:first-child {
+    margin: 0;
+}
+
+
+.complect p {
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 0;
+    margin-left: 10px;
+}
+
+
+.icon {
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+
+.icon:first-child {
+    margin: 0;
+}
+
+
+.buy-game-icons h1 {
+    color: rgba(82, 190, 220, 1);
+    font-family: RobotoB, sans-serif;
+    font-size: 24px;
+    margin: 0;
+    margin-top: 100px;
+    margin-bottom: -20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
