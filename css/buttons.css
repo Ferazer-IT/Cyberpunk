@@ -1,0 +1,42 @@
+.form-button {
+    padding: 15px 50px;
+    background-color: yellow;
+    color: black;
+    font-family: RobotoB, sans-serif;
+    font-size: 18px;
+    border: none;
+    margin: 0;
+    margin-top: -50px;
+}
+
+
+.form-button:hover {
+    cursor: pointer;
+    background-color: rgb(255, 208, 0);
+    color: rgb(36, 36, 36);
+}
+
+/*HP*/
+.HP-button {
+    padding: 15px 50px;
+    background-color: black;
+    color: rgba(248, 242, 0, 1);
+    border: none;
+    margin-top: 20px;
+    font-family: RobotoM, sans-serif;
+    font-size: 18px;
+}
+
+
+.HP-button:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    transition: all .5s;
+}
+
+
+
+
+
